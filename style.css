@@ -34,13 +34,13 @@ img {
 	align-self: end;
 	justify-content: end;
 	flex-grow: 1;
-	border: 1px solid black;
+	margin-right: 1em;
 	
 	
 }
 
-.topnav > button {
-	margin: auto;
+.topnav > a {
+	margin-left: 1em;
 	border: none;
 }
 
