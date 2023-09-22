@@ -20,6 +20,10 @@ img {
 
 }
 
+.cart {
+	justify-items: right;
+}
+
 .topnav {
 	display: flex;
 	align-self: end;
@@ -34,4 +38,6 @@ img {
 	margin: auto;
 	border: none;
 }
+
+
 
