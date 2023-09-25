@@ -1,3 +1,9 @@
+* {
+	box-sizing: border-box;
+  	margin: 0;
+  	padding: 0;
+}
+
 body {
 	margin: 0;
 	padding: 0;
@@ -14,7 +20,7 @@ header {
 }
 
 
-img {
+.logga {
 		height: 5em;
 		width: auto;
 		border: 1px solid black;
@@ -47,12 +53,39 @@ img {
 .footer1 {
 	background-color: #a8efee; 
 	color: rgb(27, 23, 23); 
-	padding: 20px;
-	position: fixed;
+	padding: 50px;
+	/* position: fixed; */
     bottom: 0;
     width: 100%;
-	height: 5em;
+	/* height: 5em; */
 
    }
 
-   
+.duck-container {
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	flex-wrap: wrap;
+	padding-left: 10em ;
+	padding-right: 10em ;
+	
+}
+
+.info1 > img {
+	margin-bottom: 1em;
+	max-width: 70vh;
+}
+
+@media screen and (max-width: 700px){
+	.duck-container > img{
+	  max-width: 50vh;
+	}
+}
+
+.info1  {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: end;
+	
+}
