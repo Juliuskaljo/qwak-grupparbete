@@ -8,10 +8,6 @@
 	
 }
 
-.product1 > img {
-	margin-bottom: 1em;
-	max-width: 70vh;
-}
 
 @media screen and (max-width: 700px){
 	.ducks-container > img{
@@ -29,19 +25,7 @@
 	
 }
 
-.product2 > img {
+.ankor {
 	margin-bottom: 1em;
 	max-width: 70vh;
 }
-
-
-.product3 > img {
-	margin-bottom: 1em;
-	max-width: 70vh;
-}
-
-.product4 > img {
-	margin-bottom: 1em;
-	max-width: 70vh;
-}
-
