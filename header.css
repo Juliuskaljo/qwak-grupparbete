@@ -8,11 +8,19 @@ body {
 header {
 	background-color: rgb(230, 176, 228);
 	display: flex;
+	flex-wrap: wrap;
 	padding: 0.5em;
 	border: 2px solid black;
 	align-items: end;
 	position: relative;
 	
+}
+
+img {
+	height: 5em;
+	width: auto;
+	/* border: 1px solid black; */
+	z-index: 1;
 }
 
 .overlay {
@@ -27,16 +35,11 @@ header {
 	font-size: medium;
 	font-weight: bold;
 	justify-content: space-evenly;
-	align-items: center;
+	align-items: center;	
 	
 }
 
-img {
-		height: 5em;
-		width: auto;
-		/* border: 1px solid black; */
-        z-index: 1;
-}
+
 
 .cart {
 	justify-items: right;
@@ -54,6 +57,11 @@ img {
 	margin-right: 1em;
 }
 
+.shipping {
+	position: relative;
+	left: 1em;
+}
+
 .buttons {
     border: none;
 	background-color: rgb(230, 176, 228);
@@ -67,6 +75,9 @@ img {
 	border: none;
 }
 
+.search-and-cart {
+	
+}
 
 .footer1 {
 	background-color: #a8efee; 
