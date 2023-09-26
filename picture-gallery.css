@@ -15,7 +15,7 @@
 	}
 }
 
-.product1, .product2, .product3, .product4 {
+.product{
 	display: flex;
 	flex-direction: column;
 	align-items: center;
