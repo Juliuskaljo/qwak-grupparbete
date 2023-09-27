@@ -1,0 +1,199 @@
+header {
+	background-color: rgb(230, 176, 228);
+	display: flex;
+	flex-wrap: wrap;
+	padding: 0.5em;
+	border: 2px solid black;
+	align-items: end;
+	position: relative;
+	
+}
+
+.LOGGA {
+	height: 5em;
+	width: auto;
+	/* border: 1px solid black; */
+	z-index: 1;
+}
+
+.overlay {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 2em;
+	background-color: #a8efee;
+	display: flex;
+	color: black;
+	font-size: medium;
+	font-weight: bold;
+	justify-content: space-evenly;
+	align-items: center;	
+	
+}
+
+
+
+.cart {
+	justify-items: right;
+	width: 2em;
+	height: 2em;
+	margin-left: 10px;
+	
+}
+
+.topnav {
+	display: flex;
+	align-self: end;
+	justify-content: space-evenly;
+	flex-grow: 1;
+	margin-right: 1em;
+}
+
+.shipping {
+	position: relative;
+	left: 1em;
+}
+
+.buttons {
+    border: none;
+	background-color: rgb(230, 176, 228);
+	font-size: x-large;
+	cursor: pointer;
+	padding: 0;
+}
+
+.topnav > a {
+	margin-left: 1em;
+	border: none;
+}
+
+.search-and-cart {
+	border: 1px solid black;
+}
+
+.footer1 {
+    background-color: #98c4e0e9;
+    color: rgb(27, 23, 23);
+    padding: 12px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    min-height: 6em;
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    flex-direction: column;
+}
+
+.bilder {
+    width: 24px;
+    height: auto;
+    margin-right: 10px;
+	box-shadow: 2px 2px 5px rgb(98, 107, 112);
+}
+
+h6 {
+    margin: 0;
+    display: inline;
+    color: rgba(11, 0, 8, 0.845);
+}
+
+.bilder1,
+.bilder2 {
+    width: 24px;
+    height: auto;
+    margin-right: 10px;
+	box-shadow: 2px 2px 5px rgb(81, 84, 85);
+	
+
+}
+
+.payment {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+	margin-top: 5px;
+	
+}
+
+.bilder3,
+.bilder4 {
+    width: 40px;
+    height: auto;
+    margin-right: 10px;
+    margin-top: -1px;
+	box-shadow: 2px 2px 5px rgb(60, 62, 63);
+	
+}
+
+.Kundservice {
+    width: 25px;
+    height: auto;
+    padding-right: 5px;
+	padding: left 5px; 
+	box-shadow: 2px 2px 5px rgb(60, 62, 63);
+}
+
+h4 {
+	width: 30px;
+    margin: 0;
+	padding-right: 10px;
+    color: rgb(123, 120, 120);
+	
+}
+
+.adress {
+    text-align: right;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    padding: 15px 40px;
+    background-color: #98c4e0e9;
+    color: rgb(123, 120, 120);
+    white-space: nowrap;
+    overflow: hidden; 
+    text-overflow: ellipsis;
+}
+
+body {
+	margin: 0;
+	padding: 0;
+	background-color:rgb(230, 199, 228);
+
+}
+
+.hållbarhet-titel, .hållbarhet-text, .hållbarhet-underrubrik {
+	font-family: 'Dosis', sans-serif;
+	text-align: center;
+}
+
+/* .ankjord {
+	display: block;
+	margin-left: auto;
+ 	margin-right: auto;
+  	width: 170px;
+	margin-top: 1em;
+
+} */
+
+#ANKISEN {
+	display: block;
+	margin-left: auto;
+ 	margin-right: auto;
+	margin-top: 1em;
+	background-image: url('https://github.com/Juliuskaljo/qwak-grupparbete/blob/main/Bilder/111.png?raw=true');
+	height: 227px;
+	width: 227px;
+ }
+ 
+ #ANKISEN:hover {
+	background-image: url('https://github.com/Juliuskaljo/qwak-grupparbete/blob/main/Bilder/11.png?raw=true');
+	height: 227px;
+	width: 227px;
+ }
+
+
+
+
+
