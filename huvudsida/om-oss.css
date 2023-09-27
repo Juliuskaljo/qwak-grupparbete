@@ -4,7 +4,7 @@ header {
 	display: flex;
 	flex-wrap: wrap;
 	padding: 0.5em;
-	border: 2px solid black;
+	border: 0px solid black;
 	align-items: end;
 	position: relative;
 	
@@ -13,7 +13,6 @@ header {
 .LOGGA {
 	height: 5em;
 	width: auto;
-	/* border: 1px solid black; */
 	z-index: 1;
 }
 
@@ -69,10 +68,7 @@ header {
 	border: none;
 }
 
-.search-and-cart {
-	border: 1px solid black;
-	text-align: center;
-}
+
 
 @media (max-width: 768px) {}
 	.LOGGA {
@@ -117,7 +113,7 @@ main {
 .text {
 	text-align: center;
 	position: relative;
-	top: -50px; 
+	top: -100px; 
 	font-family: 'Dosis', sans-serif;
 	
 }
