@@ -56,3 +56,15 @@ footer {
 .adress > p {
 	margin: 0.2em;
 }
+
+@media screen and (max-width: 500px){
+	footer{
+	  display: flex;
+	  flex-direction: column;
+	  align-items: center;
+	}
+	.socialmedia{
+		display: flex;
+		flex-direction: row;
+	}
+}
