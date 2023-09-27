@@ -1,11 +1,7 @@
 .footer1 {
     background-color: #98c4e0e9;
     color: rgb(27, 23, 23);
-    padding: 12px;
-    position: fixed;
-    bottom: 0;
-    width: 100%;
-    min-height: 6em;
+	padding: 2em;
     display: flex;
     align-items: flex-start;
     justify-content: flex-start;
