@@ -115,8 +115,8 @@ main {
 .text {
 	text-align: center;
 	position: relative;
-	top: -120px; 
+	top: -116px; 
 	font-family: 'Dosis', sans-serif;
-	
+	color: rgb(59, 56, 56);
 }
 
