@@ -30,3 +30,7 @@
 	max-width: 70vh;
 
 }
+
+main > h1, h2 {
+	text-align: center;
+}
