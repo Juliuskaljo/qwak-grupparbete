@@ -71,5 +71,28 @@ header {
 
 .search-and-cart {
 	border: 1px solid black;
+	text-align: center;
 }
 
+@media (max-width: 768px) {}
+	.LOGGA {
+		height: 5em;
+	}
+
+	.overlay {
+		font-size:x-small
+	}
+
+	.topnav {
+		flex-direction: column;
+		align-items: center;
+		margin-top: 1em;
+	}
+
+	.topnav > a {
+		margin: 0.5em 0;
+	}
+
+	.search-and-cart {
+		margin-left: 4em;
+	}
