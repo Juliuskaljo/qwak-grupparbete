@@ -2,9 +2,16 @@ body {
 	margin: 0;
 	padding: 0;
 	background-color:rgb(230, 199, 228);
-
+	
 }
 
+main {
+	min-height: 100vh;
+	display: flex;
+	flex-direction: column;
+	flex-grow: 1;
+	justify-content: center;
+}
 
 
        

@@ -6,19 +6,20 @@ header {
 	padding: 0.5em;
 	border: 2px solid black;
 	align-items: end;
+	height: 5em;
 	position: relative;
-	
+
 }
 
-.LOGGA {
+ .LOGGA {
 	height: 5em;
 	width: auto;
-	/* border: 1px solid black; */
-	z-index: 1;
+	border: 1px solid black;
+	z-index: 1; 
 }
 
 .overlay {
-	position: absolute;
+    position: absolute;
 	top: 0;
 	left: 0;
 	width: 100%;
@@ -87,6 +88,8 @@ header {
 		flex-direction: column;
 		align-items: center;
 		margin-top: 1em;
+		font-size: small;
+	
 	}
 
 	.topnav > a {
@@ -94,6 +97,16 @@ header {
 	}
 
 	.search-and-cart {
-		margin-left: 4em;
+		margin-left: 4em;	
+	}
+
+	.buttons {
+		font-size: large;
+		margin: 0;
+	}
+
+	header {
+		height: 10em;
+
 	}
 }
