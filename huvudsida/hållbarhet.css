@@ -1,6 +1,7 @@
-.hållbarhet-titel, .hållbarhet-text, .hållbarhet-underrubrik {
-	/* font-family: 'Dosis', sans-serif; */
+.hallbarhet-titel, .hallbarhet-text, .hallbarhet-underrubrik {
+	font-family: 'Dosis', sans-serif;
 	text-align: center;
+
 }
 
 /* .ankjord {
