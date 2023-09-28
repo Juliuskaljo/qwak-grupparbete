@@ -74,7 +74,7 @@ header {
 	text-align: center;
 }
 
-@media (max-width: 768px) {}
+@media (max-width: 768px) {
 	.LOGGA {
 		height: 5em;
 	}
@@ -96,3 +96,4 @@ header {
 	.search-and-cart {
 		margin-left: 4em;
 	}
+}
