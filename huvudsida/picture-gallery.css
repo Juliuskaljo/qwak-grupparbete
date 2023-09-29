@@ -1,3 +1,5 @@
+
+
 .ducks-container {
 	display: flex;
 	flex-direction: row;
@@ -27,11 +29,23 @@
 .ankor {
 	margin-bottom: 1em;
 	max-width: 40vh;
+	border: 3px solid black;
+	transition: 0.3s;
 
+}
+
+.ankor:hover {
+	transform: scale(1.05);
+	cursor: pointer;
 }
 
 main > h1, h3, h4{
 	text-align: center;
+	font-family: 'Dosis', sans-serif;
+}
+
+.ai-rubber-d {
+	margin-bottom: 0;
 }
 
 .product-variant, .price, .add-to-cart {
