@@ -55,6 +55,7 @@ footer {
 
 .adress > p {
 	margin: 0.2em;
+	font-family: 'Dosis', sans-serif;
 }
 
 @media screen and (max-width: 500px){
