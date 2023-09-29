@@ -4,9 +4,9 @@ header {
 	display: flex;
 	flex-wrap: wrap;
 	padding: 0.5em;
-	border: 2px solid black;
+	/* border: 2px solid black; */
 	align-items: end;
-	height: 5em;
+	height: 7em;
 	position: relative;
 
 }
@@ -14,7 +14,7 @@ header {
  .LOGGA {
 	height: 5em;
 	width: auto;
-	border: 1px solid black;
+	/* border: 1px solid black; */
 	z-index: 1; 
 }
 
@@ -31,7 +31,6 @@ header {
 	font-weight: bold;
 	justify-content: space-evenly;
 	align-items: center;	
-	
 }
 
 
@@ -71,24 +70,45 @@ header {
 }
 
 .search-and-cart {
-	border: 1px solid black;
+	/* border: 1px solid black; */
 	text-align: center;
 }
 
 @media (max-width: 768px) {
 	.LOGGA {
+		display: flex;
+		flex-grow: 0;
+		order: 1;
 		height: 5em;
+		position: relative;
+		margin-top: 1.3em;
 	}
 
 	.overlay {
-		font-size:x-small
+		font-size: small;
+	}
+
+	.search-and-cart {
+	order: 2;
+	display: flex;
+	flex-shrink: 1;
+	flex-direction:row;
+	position: relative;
+	margin-left: 1em;
+	/* width: 2.4em; */
+	left: -1,5em;
 	}
 
 	.topnav {
-		flex-direction: column;
-		align-items: center;
-		margin-top: 1em;
+		order: 3;
+		position: relative;
+		display: flex;
+		flex-direction: row;
+		align-items: flex-start;
+		margin-top: 0em;
 		font-size: small;
+		margin-left: auto;
+		
 	
 	}
 
@@ -96,9 +116,7 @@ header {
 		margin: 0.5em 0;
 	}
 
-	.search-and-cart {
-		margin-left: 4em;	
-	}
+	
 
 	.buttons {
 		font-size: large;
@@ -106,7 +124,13 @@ header {
 	}
 
 	header {
-		height: 10em;
+		display: flex;
+		flex-direction: row;
+		height: auto;
+
 
 	}
+
+
 }
+
