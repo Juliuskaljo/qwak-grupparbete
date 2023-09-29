@@ -79,7 +79,7 @@ header {
 		display: flex;
 		flex-grow: 0;
 		order: 1;
-		height: 4em;
+		height: 5em;
 		position: relative;
 		margin-top: 1.3em;
 	}
@@ -90,12 +90,13 @@ header {
 
 	.search-and-cart {
 	order: 2;
-	/* display: flex; */
+	display: flex;
 	flex-shrink: 1;
 	flex-direction:row;
 	position: relative;
 	margin-left: 1em;
-	width: 2.4em;
+	/* width: 2.4em; */
+	left: -1,5em;
 	}
 
 	.topnav {
@@ -126,6 +127,7 @@ header {
 		display: flex;
 		flex-direction: row;
 		height: auto;
+
 
 	}
 
