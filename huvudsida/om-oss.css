@@ -10,13 +10,13 @@ main {
 .text {
 	max-width: 600px;
 	text-align: center;
-	font-size: 14px; 
+	font-size: 16px; 
 	font-family: 'Dosis', sans-serif;
 	color: rgb(10, 9, 9);
-	background-color: rgb(210, 170, 195);
-	border-radius: 25px;
+	background-color:rgb(207, 211, 205);
 	box-shadow: 5px 5px 5px #7a7777;
 	padding: 0 3em 0 3em;
+	
 }
 
 
